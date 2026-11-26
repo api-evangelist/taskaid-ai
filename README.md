@@ -1,4 +1,4 @@
-# taskaid-ai
+# Taskaid
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-taskaid-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://taskaid.ai/
+Taskaid provides a task management platform designed for AI agents to read, write, and manage tasks autonomously. It emphasizes simplicity, persistence across conversations, and seamless integration with various AI assistants like ChatGPT, Claude, and Gemini. Users can create lists, schedule reminders, and collaborate with agents without complex setups, all under a single personal plan.
+
+**Areas:** Company · AI · Task Management · Automation · Productivity
+
+## Taskaid on APIs.io
+
+Everything profiled for Taskaid is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/taskaid-ai/](https://apis.io/providers/taskaid-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Taskaid Account API](https://apis.io/apis/taskaid-ai/taskaid-ai-account-api/) — The account a request is made as.
+- [Taskaid Lists API](https://apis.io/apis/taskaid-ai/taskaid-ai-lists-api/) — Lists group related tasks. A task is in one list, or none.
+- [Taskaid Plans API](https://apis.io/apis/taskaid-ai/taskaid-ai-plans-api/) — One short plan per day: what to tackle, in what order, and where to start.
+- [Taskaid Tasks API](https://apis.io/apis/taskaid-ai/taskaid-ai-tasks-api/) — The to-dos in your account: each has a name, and can have a day, a reminder, a note and a list.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Taskaid Ai Webhooks](https://apis.io/asyncapis/taskaid-ai/taskaid-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Taskaid Agentic Access](https://apis.io/agentic-access/taskaid-ai/taskaid-ai-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/taskaid-ai/taskaid-ai-account/)
+- [List](https://apis.io/schemas/taskaid-ai/taskaid-ai-list/)
+- [Plan](https://apis.io/schemas/taskaid-ai/taskaid-ai-plan/)
+- [Task](https://apis.io/schemas/taskaid-ai/taskaid-ai-task/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Taskaid Ai Context](https://apis.io/jsonld/taskaid-ai/taskaid-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Taskaid API Rules](https://apis.io/rules/taskaid-ai/taskaid-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Taskaid Authentication](https://apis.io/security/taskaid-ai/taskaid-ai-authentication/)
+- [Taskaid Domain Security](https://apis.io/security/taskaid-ai/taskaid-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Taskaid Scopes](https://apis.io/scopes/taskaid-ai/taskaid-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Taskaid Plans Pricing](https://apis.io/plans/taskaid-ai/taskaid-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://taskaid.ai/)
+- [Documentation](https://taskaid.ai/docs)
+- [Getting started](https://dev.taskaid.ai/integrations/chatgpt)
+- [API reference](https://taskaid.ai/docs/api)
+- [Pricing](https://taskaid.ai/pricing)
+- [Support](https://taskaid.ai/support)
+- [Changelog](https://taskaid.ai/changelog)
+- [Blog](https://taskaid.ai/blog)
+- [Terms of service](https://taskaid.ai/terms)
+- [Privacy policy](https://taskaid.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 60.7** — strong · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 63.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 63.7 |
+
+**Agent readiness 57.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/taskaid-ai/](https://apis.io/providers/taskaid-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Taskaid: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/taskaid-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
